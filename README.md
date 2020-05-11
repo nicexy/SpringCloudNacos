@@ -8,3 +8,6 @@
     * 消费者我是用FeignClient做的测试，关于feign，低版本(netflix-feign-core)与高版本(openfeign)的
     依赖包不一样，这个找了半天以前没有注意。目前引用spring-cloud-starter-openfeign
     * 微服务使用modules这种形式，是不是又耦合了？？
+* 记录
+    * 配置中心：data_id必须为application name
+    * 默认properties格式，yml需配置必须在bootstrap.yml中
